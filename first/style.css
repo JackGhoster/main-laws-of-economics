@@ -1,0 +1,81 @@
+body{
+    background: #fff;
+    margin: 0;
+}
+
+header {
+    
+    background-color: #73AFA1;
+}
+.box{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 66px;
+    padding: 60px;
+    text-align: center;
+    background: #73AFA1;
+    color: white;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.box .main:hover{
+    color: wheat;
+    font-size: 69px;
+}
+
+.box ul{
+    list-style-type: none;
+    font-size: 24px;
+}
+.box li{
+    padding: 20px;
+    display: inline;
+}
+
+.box li #first:hover{
+    color: wheat;
+    font-size: 26px;
+}
+
+.box li #second:hover{
+    color: wheat;
+    font-size: 26px;
+}
+
+.box li #third:hover{
+    color: wheat;
+    font-size: 26px;
+}
+
+.infobox{
+    margin: 0;
+    display: inline;
+}
+
+.infobox .photo{
+    
+    margin-top: 30px; 
+    height: 0px;
+    width: 0px;
+}
+
+.infobox img{
+    padding-left: 10px;
+    height: 500px;
+    /* max-width: 100%; */
+    width: 666x;
+}
+
+.infobox .text{
+    margin:0;
+    margin-left: 450px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;  
+}
+
+.infobox .text h2{
+    margin:0;
+}
