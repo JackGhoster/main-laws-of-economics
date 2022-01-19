@@ -1,6 +1,7 @@
 body{
-    background: #fff;
     margin: 0;
+    background-image: url(bgimage.png);
+    background-color: #fff;
 }
 
 header {
