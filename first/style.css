@@ -74,6 +74,13 @@ header {
     font-size: 26px;
 }
 
+.photo .opengay{
+    margin-top: 30px; 
+    height: 0px;
+    width: 350px; 
+    text-align: center;
+}
+
 .infobox img{
     padding-left: 10px;
     height: 500px;
@@ -84,7 +91,7 @@ header {
 .infobox .text{
     margin:0;
     margin-right: 20px;
-    margin-left: 450px;
+    margin-left: 400px;
     padding-left: 75px;
     font-family: 'Roboto',sans-serif;
     font-size: 18px;  
@@ -131,3 +138,4 @@ header {
     font-style: italic;
     font-family: 'Roboto',sans-serif, italic;
 }
+
