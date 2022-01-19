@@ -1,12 +1,19 @@
-body{
-    background: #fff;
+body {
     margin: 0;
+    background-image: url(bgimage.png);
+    background-color: #fff;
 }
 
 header {
     background-color: #73AFA1;
 }
-.box{
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.box {
     font-family: 'Roboto',sans-serif;
     font-size: 66px;
     padding: 60px;
@@ -15,36 +22,121 @@ header {
     color: white;
 }
 
-.box a{
-    text-decoration: none;
-    color: white;
-}
+    .box a {
+        text-decoration: none;
+        color: white;
+    }
 
-.box .main:hover{
-    color: wheat;
-    font-size: 69px;
-}
+    .box .main:hover {
+        color: wheat;
+        font-size: 69px;
+    }
 
-.box ul{
-    list-style-type: none;
-    font-size: 24px;
-}
-.box li{
-    padding: 20px;
+    .box ul {
+        margin-bottom: 0px;
+        list-style-type: none;
+        font-size: 24px;
+    }
+
+    .box li {
+        padding: 20px;
+        display: inline;
+    }
+
+        .box li #first:hover {
+            color: wheat;
+            font-size: 26px;
+        }
+
+        .box li #second:hover {
+            color: wheat;
+            font-size: 26px;
+        }
+
+        .box li #third:hover {
+            color: wheat;
+            font-size: 26px;
+        }
+
+.infobox {
+    margin: 0;
     display: inline;
 }
 
-.box li #first:hover{
-    color: wheat;
+    .infobox .photo {
+        margin-top: 30px;
+        height: 0px;
+        width: 600px;
+    }
+
+.photo p {
+    font-family: 'Roboto',sans-serif;
+    padding-left: 20px;
     font-size: 26px;
 }
 
-.box li #second:hover{
-    color: wheat;
-    font-size: 26px;
+.photo .opengay {
+    margin-top: 30px;
+    height: 0px;
+    width: 350px;
+    text-align: center;
 }
 
-.box li #third:hover{
-    color: wheat;
-    font-size: 26px;
+.infobox img {
+    padding-left: 10px;
+    height: 500px;
+    /* max-width: 100%; */
+    width: 666x;
 }
+
+.infobox .text {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 400px;
+    padding-left: 75px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+}
+
+.text h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.text h3 {
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Roboto',sans-serif, italic;
+}
+
+.text p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    padding-left: -40px;
+    font-size: 22px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.title {
+    margin-top: 50px;
+    font-family: 'Roboto',sans-serif;
+}
+
+    .title h2 {
+        text-align: center;
+        margin: 0;
+        font-weight: bolder;
+        font-size: 42px;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-family: 'Roboto',sans-serif, italic;
+    }
