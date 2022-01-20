@@ -6,6 +6,7 @@ body{
 
 header {
     background-color: #73AFA1;
+    /* height: 253px; */
 }
 
 .container{
@@ -32,6 +33,7 @@ header {
 }
 
 .box{ 
+    height: 130px;
     font-family: 'Roboto',sans-serif;
     font-size: 66px;
     padding: 60px;
